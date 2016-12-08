@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7463" started-at="2016-12-07T10:18:49Z" finished-at="2016-12-07T10:18:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7463" started-at="2016-12-07T10:18:49Z" finished-at="2016-12-07T10:18:56Z">
+      <class name="com.mail.My163mailTest.TestIndexPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mail.My163mailTest.TestIndexPage@6321e813]" name="setUp" is-config="true" duration-ms="4368" started-at="2016-12-07T18:18:49Z" finished-at="2016-12-07T18:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="assertLoginButton()[pri:0, instance:com.mail.My163mailTest.TestIndexPage@6321e813]" name="assertLoginButton" duration-ms="211" started-at="2016-12-07T18:18:53Z" finished-at="2016-12-07T18:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertLoginButton -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.mail.My163mailTest.TestIndexPage@6321e813]" name="login" duration-ms="239" started-at="2016-12-07T18:18:53Z" depends-on-methods="com.mail.My163mailTest.TestIndexPage.assertLoginButton" finished-at="2016-12-07T18:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="writeMessage()[pri:0, instance:com.mail.My163mailTest.TestIndexPage@6321e813]" name="writeMessage" duration-ms="2631" started-at="2016-12-07T18:18:54Z" depends-on-methods="com.mail.My163mailTest.TestIndexPage.login" finished-at="2016-12-07T18:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mail.My163mailTest.TestIndexPage@6321e813]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-07T18:18:56Z" finished-at="2016-12-07T18:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mail.My163mailTest.TestIndexPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

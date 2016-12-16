@@ -11,5 +11,10 @@
             </class>
         </classes>
     </test>
-    
+        <test name="case02 发送邮件" > 
+        <classes>
+            <class name="com.mail.My163mailTest.TestIndexPage">
+            </class>
+        </classes>
+    </test>
 </suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="driverType" value="chrome"/>
+  <parameter name="propertieFilepath" value="src/main/resources/login.properties"/>
+  <parameter name="ip" value="seleniumserver"/>
+  <test name="TestAtFirefox(failed)">
+    <parameter name="driverType" value="chrome"/>
+    <parameter name="propertieFilepath" value="src/main/resources/login.properties"/>
+    <parameter name="ip" value="seleniumserver"/>
+    <classes>
+      <class name="com.sogou.bizqa.seleniumxuri.scenario.TestSceneLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="test"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sogou.bizqa.seleniumxuri.scenario.TestSceneLogin -->
+    </classes>
+  </test> <!-- TestAtFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

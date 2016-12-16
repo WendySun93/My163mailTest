@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">
+
+
+	<bean id="basePage" class="com.sogou.bizqa.seleniumxuri.base.BasePage"
+		scope="singleton">
+		<property name="driverType" value="chrome" />
+		<property name="explorerType" value="chrome" />
+		<property name="ip" value="seleniumserver" />
+		<property name="propertieFilepath" value="src/main/resources/page-config.properties" />
+		<property name="dr" ref="dr" />
+		<property name="element" ref="element" />
+		<property name="isExist" ref="isExist" />
+		<property name="myEventListener" ref="myEventListener" />
+		<property name="resultList" ref="resultList" />
+		<property name="value" ref="value" />
+		<property name="wait" ref="wait" />
+		<property name="commonUtil" ref="commonUtil" />
+		<property name="propertiesParse" ref="propertiesParse" />
+		<property name="operate" ref="operate" />
+		<property name="util" ref="util" />
+
+	</bean>
+
+	<bean id="dr" class="com.sogou.bizqa.seleniumxuri.elements.Driver"></bean>
+	<bean id="element" class="com.sogou.bizqa.seleniumxuri.elements.Element"></bean>
+	<bean id="isExist" class="com.sogou.bizqa.seleniumxuri.elements.IsExist"></bean>
+	<bean id="myEventListener" class="com.sogou.bizqa.seleniumxuri.elements.MyEventListener"></bean>
+	<bean id="resultList" class="com.sogou.bizqa.seleniumxuri.elements.ResultList"></bean>
+	<bean id="value" class="com.sogou.bizqa.seleniumxuri.elements.Value"></bean>
+	<bean id="wait" class="com.sogou.bizqa.seleniumxuri.elements.Wait"></bean>
+	<bean id="commonUtil" class="com.sogou.bizqa.seleniumxuri.utils.CommonUtil"></bean>
+	<bean id="propertiesParse" class="com.sogou.bizqa.seleniumxuri.utils.PropertiesParse"></bean>
+	<bean id="operate" class="com.sogou.test.element.Operate"></bean>
+	<bean id="util" class="com.sogou.bizqa.seleniumxuri.base.Util"></bean>
+
+</beans>

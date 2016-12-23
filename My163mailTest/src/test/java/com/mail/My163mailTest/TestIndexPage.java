@@ -37,7 +37,7 @@ public class TestIndexPage extends BaseTest {
 
 	@AfterClass
 	public void tearDown() {
-//		driver.quit();	
+		driver.quit();	
 	}
 	
 	@Test(priority = 1)
@@ -60,6 +60,7 @@ public class TestIndexPage extends BaseTest {
 	public void writeMessage(){
 //		indexPage.writeMessage(driver,wait);
 		indexPage.writeMessageWithAttachment(driver,wait);
+		log.info("==========已发送邮件=============");
 	}
 	
 }

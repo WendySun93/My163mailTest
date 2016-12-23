@@ -10,12 +10,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.mail.My163mailTest.utils.ReadData;
+import com.mail.My163mailTest.utils.WaitEncap;
 
 public class IndexPage {
 	
 	WebDriver driver;
-	WebDriverWait wait;
-	
 	
 	final static String xpathwriteMessageBtn="//b[@class='nui-ico fn-bg ga0']";
 	final static String xpathrecipient="//input[@class='nui-editableAddr-ipt']";
@@ -55,40 +54,40 @@ public class IndexPage {
 
 	public void writeMessage(WebDriver driver, WebDriverWait wait) {
 		//元素找到后点击写信按钮
-		WaitMethod(wait, xpathwriteMessageBtn);
+		WaitEncap.WaitMethod(wait, xpathwriteMessageBtn);
 		writeMessageBtn.click();
 		//元素找到后输入收信人
-		WaitMethod(wait, xpathrecipient);
+		WaitEncap.WaitMethod(wait, xpathrecipient);
 		recipient.sendKeys(ReadData.getAttribute("recipient"));
 		//元素找到后输入主题
-		WaitMethod(wait, xpathsubject);
+		WaitEncap.WaitMethod(wait, xpathsubject);
 		subject.sendKeys(ReadData.getAttribute("subject"));
 		//进入iframe
 		driver.switchTo().frame(frame);
 		//元素找到后输入信件内容
-		WaitMethod(wait, xpathcontent);
+		WaitEncap.WaitMethod(wait, xpathcontent);
 		content.sendKeys(ReadData.getAttribute("content"));
 		//跳出iframe
 		driver.switchTo().defaultContent();
 		//元素找到后点击发送按钮
-		WaitMethod(wait, xpathsendBtn);
+		WaitEncap.WaitMethod(wait, xpathsendBtn);
 		sendBtn.click();
 	}
 	
 	public void writeMessageWithAttachment(WebDriver driver, WebDriverWait wait) {
 		//元素找到后点击写信按钮
-		WaitMethod(wait, xpathwriteMessageBtn);
+		WaitEncap.WaitMethod(wait, xpathwriteMessageBtn);
 		writeMessageBtn.click();
 		//元素找到后输入收信人
-		WaitMethod(wait, xpathrecipient);
+		WaitEncap.WaitMethod(wait, xpathrecipient);
 		recipient.sendKeys(ReadData.getAttribute("recipient"));
 		//元素找到后输入主题
-		WaitMethod(wait, xpathsubject);
+		WaitEncap.WaitMethod(wait, xpathsubject);
 		subject.sendKeys(ReadData.getAttribute("subject"));
 		//进入iframe
 		driver.switchTo().frame(frame);
 		//元素找到后输入信件内容
-		WaitMethod(wait, xpathcontent);
+		WaitEncap.WaitMethod(wait, xpathcontent);
 		content.sendKeys(ReadData.getAttribute("content"));
 		//跳出iframe
 		driver.switchTo().defaultContent();
@@ -96,12 +95,9 @@ public class IndexPage {
 //		wait.until(ExpectedConditions.elementToBeClickable(attachment));
 		attachment.sendKeys("C:\\Users\\sunwenjuan\\Desktop\\test.txt");
 		//元素找到后点击发送按钮
-		WaitMethod(wait, xpathsendBtn);
+		WaitEncap.WaitMethod(wait, xpathsendBtn);
 		sendBtn.click();
 	}
-	public void WaitMethod(WebDriverWait wait,String expression){
-		
-		WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(expression)));
-	}
+	
 	
 }

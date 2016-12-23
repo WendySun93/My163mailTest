@@ -25,7 +25,7 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public static boolean allBtnIsExist(WebDriver driver) {
+	public  boolean allBtnIsExist(WebDriver driver) {
 		driver.switchTo().frame("x-URS-iframe");
 		Assert.assertTrue(loginUser.isDisplayed());
 		Assert.assertTrue(loginPasswd.isDisplayed());
@@ -35,6 +35,7 @@ public class LoginPage {
 	
 	//登录
 	public void login(String username,String passwd,WebDriverWait wait){
+		driver.switchTo().frame("x-URS-iframe");
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='email']")));
 		loginUser.sendKeys(username);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='password']")));

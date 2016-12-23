@@ -1,16 +1,52 @@
-[INFO ] 2016-12-12 15:51:27,260 method:com.mail.My163mailTest.TestLoginMail.setUp(TestLoginMail.java:28)
+[INFO ] 2016-12-21 13:49:09,224 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
+===========开始登陆喽=========
+[INFO ] 2016-12-21 13:50:38,397 method:com.mail.My163mailTest.TestLoginMail.setUp(TestLoginMail.java:28)
 ===========case1 登录163邮箱===========
-[INFO ] 2016-12-12 15:51:37,872 method:com.mail.My163mailTest.TestLoginMail.assertLoginButton(TestLoginMail.java:45)
+[INFO ] 2016-12-21 13:50:43,128 method:com.mail.My163mailTest.TestLoginMail.assertLoginButton(TestLoginMail.java:45)
 ===========获取页面正确=============
-[INFO ] 2016-12-12 15:51:38,088 method:com.mail.My163mailTest.TestLoginMail.login(TestLoginMail.java:54)
+[INFO ] 2016-12-21 13:50:43,607 method:com.mail.My163mailTest.TestLoginMail.login(TestLoginMail.java:54)
 =========已登录163邮箱===========
-[INFO ] 2016-12-12 15:51:40,416 method:com.mail.My163mailTest.TestLoginMail.logout(TestLoginMail.java:61)
+[INFO ] 2016-12-21 13:50:46,116 method:com.mail.My163mailTest.TestLoginMail.logout(TestLoginMail.java:61)
 ==========已退出163邮箱===============
-[INFO ] 2016-12-12 15:51:41,451 method:com.mail.My163mailTest.TestLoginMail.tearDown(TestLoginMail.java:39)
+[INFO ] 2016-12-21 13:50:47,701 method:com.mail.My163mailTest.TestLoginMail.tearDown(TestLoginMail.java:39)
 ===========case1已完成  关闭浏览器===========
-[INFO ] 2016-12-12 15:51:41,509 method:com.mail.My163mailTest.TestIndexPage.setUp(TestIndexPage.java:27)
-===========case02 163邮箱写信=========
-[INFO ] 2016-12-12 15:51:44,523 method:com.mail.My163mailTest.TestIndexPage.assertLoginButton(TestIndexPage.java:46)
+[INFO ] 2016-12-21 16:15:38,759 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
+===========开始登陆喽=========
+[INFO ] 2016-12-21 16:17:42,537 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
+===========开始登陆喽=========
+[INFO ] 2016-12-21 16:33:17,226 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
+===========开始登陆喽=========
+[INFO ] 2016-12-21 16:43:07,022 method:com.mail.My163mailTest.TestLoginMail.setUp(TestLoginMail.java:28)
+===========case1 登录163邮箱===========
+[INFO ] 2016-12-21 16:43:14,153 method:com.mail.My163mailTest.TestLoginMail.assertLoginButton(TestLoginMail.java:45)
 ===========获取页面正确=============
-[INFO ] 2016-12-12 15:51:44,710 method:com.mail.My163mailTest.TestIndexPage.login(TestIndexPage.java:56)
+[INFO ] 2016-12-21 16:43:17,021 method:com.mail.My163mailTest.TestLoginMail.tearDown(TestLoginMail.java:39)
+===========case1已完成  关闭浏览器===========
+[INFO ] 2016-12-21 16:43:49,593 method:com.mail.My163mailTest.TestLoginMail.setUp(TestLoginMail.java:28)
+===========case1 登录163邮箱===========
+[INFO ] 2016-12-21 16:43:54,022 method:com.mail.My163mailTest.TestLoginMail.assertLoginButton(TestLoginMail.java:45)
+===========获取页面正确=============
+[INFO ] 2016-12-21 16:43:54,556 method:com.mail.My163mailTest.TestLoginMail.login(TestLoginMail.java:54)
 =========已登录163邮箱===========
+[INFO ] 2016-12-21 16:43:56,671 method:com.mail.My163mailTest.TestLoginMail.logout(TestLoginMail.java:61)
+==========已退出163邮箱===============
+[INFO ] 2016-12-21 16:43:57,592 method:com.mail.My163mailTest.TestLoginMail.tearDown(TestLoginMail.java:39)
+===========case1已完成  关闭浏览器===========
+[INFO ] 2016-12-21 17:18:15,660 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
+===========开始登陆喽=========
+[INFO ] 2016-12-21 17:18:23,581 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:44)
+=========已录163邮箱===========
+[INFO ] 2016-12-21 17:18:23,598 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========
+[INFO ] 2016-12-21 17:18:47,963 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
+===========开始登陆喽=========
+[INFO ] 2016-12-21 17:18:52,749 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:44)
+=========已录163邮箱===========
+[INFO ] 2016-12-21 17:18:52,756 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========
+[INFO ] 2016-12-21 17:22:58,778 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
+===========开始登陆喽=========
+[INFO ] 2016-12-21 17:23:03,200 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+=========已录163邮箱===========
+[INFO ] 2016-12-21 17:23:03,209 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========

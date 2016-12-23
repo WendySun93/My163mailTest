@@ -5,6 +5,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 public class ReadData {
 	static String profilepath = "src/test/resources/dataSource.properties";
 	
@@ -19,6 +24,7 @@ public class ReadData {
 		return props.getProperty(inputkey);
 
 	}
+	
 
 	
 }

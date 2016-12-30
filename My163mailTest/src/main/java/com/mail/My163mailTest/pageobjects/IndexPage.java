@@ -52,7 +52,7 @@ public class IndexPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void writeMessage(WebDriver driver, WebDriverWait wait) {
+	public void writeMessage(WebDriverWait wait) {
 		//元素找到后点击写信按钮
 		WaitEncap.WaitMethod(wait, xpathwriteMessageBtn);
 		writeMessageBtn.click();
@@ -74,7 +74,7 @@ public class IndexPage {
 		sendBtn.click();
 	}
 	
-	public void writeMessageWithAttachment(WebDriver driver, WebDriverWait wait) {
+	public void writeMessageWithAttachment(WebDriverWait wait) {
 		//元素找到后点击写信按钮
 		WaitEncap.WaitMethod(wait, xpathwriteMessageBtn);
 		writeMessageBtn.click();

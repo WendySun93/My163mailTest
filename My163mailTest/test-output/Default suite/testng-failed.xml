@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.mail.My163mailTest.TestAddressBookPage">
+      <class name="com.mail.My163mailTest.TestWriteMessage">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="NewContact"/>
+          <include name="writeMessage"/>
         </methods>
-      </class> <!-- com.mail.My163mailTest.TestAddressBookPage -->
+      </class> <!-- com.mail.My163mailTest.TestWriteMessage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

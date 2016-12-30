@@ -39,11 +39,11 @@ public class BaseTest {
 		webServer.connUrl(driver);
 		this.loginPage = new LoginPage(driver);
 		user_login(wait);
-		log.info("=========已录163邮箱啦==========");	
+		log.info("=========已登录163邮箱啦==========");	
 	}
 	
-	@AfterClass
-	public void tearDown() {
-		driver.quit();	
-	}
+//	@AfterClass
+//	public void tearDown() {
+//		driver.quit();	
+//	}
 }

@@ -59,7 +59,7 @@ public class TestIndexPage extends BaseTest {
 	@Test(priority = 2,dependsOnMethods = { "login" })
 	public void writeMessage(){
 //		indexPage.writeMessage(driver,wait);
-		indexPage.writeMessageWithAttachment(driver,wait);
+		indexPage.writeMessageWithAttachment(wait);
 		log.info("==========已发送邮件=============");
 	}
 	

@@ -42,6 +42,7 @@ public class LoginPage {
 		loginPasswd.sendKeys(passwd);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@id='dologin']")));
 		loginButton.click();
+		driver.switchTo().defaultContent();
 	}
 
 }

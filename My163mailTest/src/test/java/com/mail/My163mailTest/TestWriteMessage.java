@@ -15,36 +15,12 @@ import com.mail.My163mailTest.webserver.WebServer;
 
 
 public class TestWriteMessage extends BaseTest {
-	public WebDriver driver;
-	WebServer webServer = new WebServer();
-	Logger log = Logger.getLogger(getClass());
-	String browser = ReadData.getAttribute("browser");
-	LoginPage loginPage;
-	IndexPage indexPage;
-	WebDriverWait wait;
+	IndexPage indexPage = new IndexPage(driver);
 	
-	
-	@BeforeClass
-	public void setUp() {
-		log.info("===========case03 写信=========");
-		driver = webServer.driverOptions(browser,driver);
-		wait = new WebDriverWait(driver, 10); 
-		webServer.connUrl(driver);
-		loginPage = new LoginPage(driver);
-		this.user_login(wait);
-		log.info("=========已用手机号登录139邮箱===========");
-		indexPage = new IndexPage(driver);
-	}
-
-	@AfterClass
-	public void tearDown() {
-//		this.user_logout(driver);
-//		driver.quit();	
-	}
-
 	@Test(priority = 1)
 	public void writeMessage(){
-		indexPage.writeMessage(driver,wait);
+		log.info("===========case03 写信=========");
+		indexPage.writeMessageWithAttachment(wait);
 	}
 	
 }

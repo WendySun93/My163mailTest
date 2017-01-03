@@ -1,78 +1,32 @@
-[INFO ] 2016-12-29 17:45:17,433 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
+[INFO ] 2017-01-03 15:11:58,489 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
 ===========开始登陆喽=========
-[INFO ] 2016-12-29 17:45:30,050 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
-=========已录163邮箱啦==========
-[INFO ] 2016-12-29 17:45:30,063 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
-=========要新建联系人喽========
-[INFO ] 2016-12-29 17:51:27,892 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
-===========开始登陆喽=========
-[INFO ] 2016-12-29 17:51:32,726 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
-=========已录163邮箱啦==========
-[INFO ] 2016-12-29 17:51:32,735 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
-[INFO ] 2016-12-29 17:53:40,843 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
-===========开始登陆喽=========
-[INFO ] 2016-12-29 17:53:44,503 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+[INFO ] 2017-01-03 15:12:04,413 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
 =========已登录163邮箱啦==========
-[INFO ] 2016-12-29 17:53:44,510 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
+[INFO ] 2017-01-03 15:12:04,419 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
 ===========case03 写信=========
-[INFO ] 2016-12-29 17:54:45,305 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
+[INFO ] 2017-01-03 15:16:05,765 method:com.mail.My163mailTest.TestIndexPage.setUp(TestIndexPage.java:27)
+===========case02 163邮箱写信=========
+[INFO ] 2017-01-03 15:16:12,151 method:com.mail.My163mailTest.TestIndexPage.assertLoginButton(TestIndexPage.java:46)
+===========获取页面正确=============
+[INFO ] 2017-01-03 15:19:15,225 method:com.mail.My163mailTest.TestIndexPage.setUp(TestIndexPage.java:28)
+===========case02 163邮箱写信=========
+[INFO ] 2017-01-03 15:19:19,003 method:com.mail.My163mailTest.TestIndexPage.assertLoginButton(TestIndexPage.java:45)
+===========获取页面正确=============
+[INFO ] 2017-01-03 15:22:59,862 method:com.mail.My163mailTest.Testdemo.setUp(Testdemo.java:28)
+===========case02 163邮箱写信=========
+[INFO ] 2017-01-03 15:23:05,340 method:com.mail.My163mailTest.Testdemo.login(Testdemo.java:57)
+=========已登录163邮箱===========
+[INFO ] 2017-01-03 15:23:08,289 method:com.mail.My163mailTest.Testdemo.writeMessage(Testdemo.java:64)
+==========已发送邮件=============
+[INFO ] 2017-01-03 15:24:12,838 method:com.mail.My163mailTest.Testdemo.setUp(Testdemo.java:28)
+===========case02 163邮箱写信=========
+[INFO ] 2017-01-03 15:24:17,715 method:com.mail.My163mailTest.Testdemo.login(Testdemo.java:57)
+=========已登录163邮箱===========
+[INFO ] 2017-01-03 15:24:20,160 method:com.mail.My163mailTest.Testdemo.writeMessage(Testdemo.java:64)
+==========已发送邮件=============
+[INFO ] 2017-01-03 15:25:45,700 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:37)
 ===========开始登陆喽=========
-[INFO ] 2016-12-29 17:54:49,313 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+[INFO ] 2017-01-03 15:25:49,313 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:43)
 =========已登录163邮箱啦==========
-[INFO ] 2016-12-29 17:54:49,321 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
-[INFO ] 2016-12-29 17:55:50,820 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
-===========开始登陆喽=========
-[INFO ] 2016-12-29 17:55:54,524 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
-=========已登录163邮箱啦==========
-[INFO ] 2016-12-29 17:55:54,533 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
-[INFO ] 2016-12-29 17:56:16,881 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
-===========开始登陆喽=========
-[INFO ] 2016-12-29 17:56:23,177 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
-=========已登录163邮箱啦==========
-[INFO ] 2016-12-29 17:56:23,185 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
-[INFO ] 2016-12-29 17:58:31,753 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
-===========开始登陆喽=========
-[INFO ] 2016-12-29 17:58:35,429 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
-=========已登录163邮箱啦==========
-[INFO ] 2016-12-29 17:58:35,439 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
-[INFO ] 2016-12-29 18:00:00,888 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
-===========开始登陆喽=========
-[INFO ] 2016-12-29 18:00:04,600 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
-=========已登录163邮箱啦==========
-[INFO ] 2016-12-29 18:00:04,609 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
-[INFO ] 2016-12-29 18:02:44,922 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
-===========开始登陆喽=========
-[INFO ] 2016-12-29 18:02:49,455 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
-=========已登录163邮箱啦==========
-[INFO ] 2016-12-29 18:02:49,464 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
-[INFO ] 2016-12-29 18:29:06,004 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
-===========开始登陆喽=========
-[INFO ] 2016-12-29 18:29:16,294 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
-=========已登录163邮箱啦==========
-[INFO ] 2016-12-29 18:29:16,310 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
-[INFO ] 2016-12-29 18:32:07,735 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
-===========开始登陆喽=========
-[INFO ] 2016-12-29 18:32:27,361 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
-=========已登录163邮箱啦==========
-[INFO ] 2016-12-29 18:32:27,532 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
-[INFO ] 2016-12-29 18:36:05,990 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
-===========开始登陆喽=========
-[INFO ] 2016-12-29 18:36:10,045 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
-=========已登录163邮箱啦==========
-[INFO ] 2016-12-29 18:36:10,053 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
-[INFO ] 2016-12-29 18:39:47,574 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
-===========开始登陆喽=========
-[INFO ] 2016-12-29 18:39:52,863 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
-=========已登录163邮箱啦==========
-[INFO ] 2016-12-29 18:39:52,869 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
+[INFO ] 2017-01-03 15:25:49,325 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
 ===========case03 写信=========

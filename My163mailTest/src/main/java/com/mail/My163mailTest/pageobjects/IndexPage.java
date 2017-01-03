@@ -77,6 +77,7 @@ public class IndexPage {
 	public void writeMessageWithAttachment(WebDriverWait wait) {
 		//元素找到后点击写信按钮
 		WaitEncap.WaitMethod(wait, xpathwriteMessageBtn);
+		System.out.println("#########要点击写信按钮喽！！！！！#########");
 		writeMessageBtn.click();
 		//元素找到后输入收信人
 		WaitEncap.WaitMethod(wait, xpathrecipient);

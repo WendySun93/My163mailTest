@@ -20,6 +20,7 @@ public class BaseTest {
 	LogoutPage logoutPage;
 	Logger log = Logger.getLogger(getClass());
 	String browser = ReadData.getAttribute("browser");
+	
 	//登录
 	public void user_login(WebDriverWait wait){
 		String user = ReadData.getAttribute("loginuser");

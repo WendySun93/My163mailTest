@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="case02 发送邮件"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.273">
+  <properties />
+  
+  
+            <testcase name="assertLoginButton" time="0.246" classname="com.mail.My163mailTest.TestIndexPage" />
+                <testcase name="writeMessage" time="3.594" classname="com.mail.My163mailTest.TestIndexPage" />
+                <testcase name="login" time="0.433" classname="com.mail.My163mailTest.TestIndexPage" />
+      
+</testsuite>

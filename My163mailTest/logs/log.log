@@ -1,32 +1,114 @@
-[INFO ] 2017-01-03 15:11:58,489 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:36)
+[INFO ] 2017-01-06 11:05:03,230 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
 ===========开始登陆喽=========
-[INFO ] 2017-01-03 15:12:04,413 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+[INFO ] 2017-01-06 11:05:11,575 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
 =========已登录163邮箱啦==========
-[INFO ] 2017-01-03 15:12:04,419 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
-[INFO ] 2017-01-03 15:16:05,765 method:com.mail.My163mailTest.TestIndexPage.setUp(TestIndexPage.java:27)
-===========case02 163邮箱写信=========
-[INFO ] 2017-01-03 15:16:12,151 method:com.mail.My163mailTest.TestIndexPage.assertLoginButton(TestIndexPage.java:46)
-===========获取页面正确=============
-[INFO ] 2017-01-03 15:19:15,225 method:com.mail.My163mailTest.TestIndexPage.setUp(TestIndexPage.java:28)
-===========case02 163邮箱写信=========
-[INFO ] 2017-01-03 15:19:19,003 method:com.mail.My163mailTest.TestIndexPage.assertLoginButton(TestIndexPage.java:45)
-===========获取页面正确=============
-[INFO ] 2017-01-03 15:22:59,862 method:com.mail.My163mailTest.Testdemo.setUp(Testdemo.java:28)
-===========case02 163邮箱写信=========
-[INFO ] 2017-01-03 15:23:05,340 method:com.mail.My163mailTest.Testdemo.login(Testdemo.java:57)
-=========已登录163邮箱===========
-[INFO ] 2017-01-03 15:23:08,289 method:com.mail.My163mailTest.Testdemo.writeMessage(Testdemo.java:64)
-==========已发送邮件=============
-[INFO ] 2017-01-03 15:24:12,838 method:com.mail.My163mailTest.Testdemo.setUp(Testdemo.java:28)
-===========case02 163邮箱写信=========
-[INFO ] 2017-01-03 15:24:17,715 method:com.mail.My163mailTest.Testdemo.login(Testdemo.java:57)
-=========已登录163邮箱===========
-[INFO ] 2017-01-03 15:24:20,160 method:com.mail.My163mailTest.Testdemo.writeMessage(Testdemo.java:64)
-==========已发送邮件=============
-[INFO ] 2017-01-03 15:25:45,700 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:37)
+[INFO ] 2017-01-06 11:05:11,583 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 11:05:16,413 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:14)
+=========已新建联系人=========
+[INFO ] 2017-01-06 11:43:51,835 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
 ===========开始登陆喽=========
-[INFO ] 2017-01-03 15:25:49,313 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:43)
+[INFO ] 2017-01-06 11:44:01,664 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
 =========已登录163邮箱啦==========
-[INFO ] 2017-01-03 15:25:49,325 method:com.mail.My163mailTest.TestWriteMessage.writeMessage(TestWriteMessage.java:22)
-===========case03 写信=========
+[INFO ] 2017-01-06 11:44:01,671 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 11:44:25,303 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:14)
+=========已新建联系人=========
+[INFO ] 2017-01-06 11:46:08,137 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 11:46:29,589 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 11:46:29,745 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 11:47:55,345 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:14)
+=========已新建联系人=========
+[INFO ] 2017-01-06 11:48:25,291 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 11:48:28,784 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 11:48:28,790 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 11:48:30,787 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:14)
+=========已新建联系人=========
+[INFO ] 2017-01-06 11:48:47,262 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 11:48:50,750 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 11:48:50,757 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 11:48:53,254 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:14)
+=========已新建联系人=========
+[INFO ] 2017-01-06 11:49:32,852 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 11:49:36,300 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 11:49:36,308 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 11:49:38,738 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:14)
+=========已新建联系人=========
+[INFO ] 2017-01-06 11:50:34,353 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 11:50:39,554 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 11:50:39,561 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 11:50:42,361 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:14)
+=========已新建联系人=========
+[INFO ] 2017-01-06 14:35:43,840 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 14:35:47,705 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 14:35:47,711 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 14:35:50,256 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:14)
+=========已新建联系人=========
+[INFO ] 2017-01-06 14:36:44,693 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 14:36:54,270 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 14:36:57,670 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 14:36:57,676 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:11)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 14:37:21,230 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:14)
+=========已新建联系人=========
+[INFO ] 2017-01-06 14:38:35,463 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 14:38:39,114 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 14:38:39,123 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:12)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 14:38:41,896 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:15)
+=========已新建联系人=========
+[INFO ] 2017-01-06 14:39:03,429 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 14:39:07,129 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 14:39:07,136 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:12)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 14:39:09,178 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:15)
+=========已新建联系人=========
+[INFO ] 2017-01-06 14:39:35,488 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 14:39:47,355 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 14:39:47,515 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:12)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 14:40:25,362 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:15)
+=========已新建联系人=========
+[INFO ] 2017-01-06 14:47:15,008 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 14:47:18,455 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 14:47:18,462 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:12)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 14:47:20,944 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:15)
+=========已新建联系人=========
+[INFO ] 2017-01-06 14:50:11,688 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:42)
+===========开始登陆喽=========
+[INFO ] 2017-01-06 14:50:15,138 method:com.mail.My163mailTest.BaseTest.setUp(BaseTest.java:50)
+=========已登录163邮箱啦==========
+[INFO ] 2017-01-06 14:50:15,145 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:12)
+=========要新建联系人喽========
+[INFO ] 2017-01-06 14:50:17,793 method:com.mail.My163mailTest.TestAddressBookPage.NewContact(TestAddressBookPage.java:15)
+=========已新建联系人=========

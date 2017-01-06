@@ -57,11 +57,11 @@ public class Testdemo {
 		log.info("=========已登录163邮箱===========");
 	}
 	//写信操作
-	@Test(priority = 2,dependsOnMethods = { "login" })
-	public void writeMessage(){
-//		indexPage.writeMessage(driver,wait);
-		indexPage.writeMessageWithAttachment(wait);
-		log.info("==========已发送邮件=============");
-	}
+//	@Test(priority = 2,dependsOnMethods = { "login" })
+//	public void writeMessage(){
+////		indexPage.writeMessage(driver,wait);
+//		indexPage.writeMessageWithAttachment(wait);
+//		log.info("==========已发送邮件=============");
+//	}
 	
 }

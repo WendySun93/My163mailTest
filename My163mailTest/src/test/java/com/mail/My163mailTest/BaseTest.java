@@ -4,8 +4,11 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
+import com.mail.My163mailTest.pageobjects.AddressBookPage;
 import com.mail.My163mailTest.pageobjects.IndexPage;
 import com.mail.My163mailTest.pageobjects.LoginPage;
 import com.mail.My163mailTest.pageobjects.LogoutPage;
@@ -18,6 +21,8 @@ public class BaseTest {
 	WebServer webServer = new WebServer();
 	LoginPage loginPage;
 	LogoutPage logoutPage;
+	public IndexPage indexPage;
+	public AddressBookPage addressBookPage;
 	Logger log = Logger.getLogger(getClass());
 	String browser = ReadData.getAttribute("browser");
 	
@@ -39,12 +44,20 @@ public class BaseTest {
 		wait = new WebDriverWait(driver, 10); 
 		webServer.connUrl(driver);
 		this.loginPage = new LoginPage(driver);
+		this.indexPage = new IndexPage(driver);
+		this.addressBookPage = new AddressBookPage(driver);
 		user_login(wait);
 		log.info("=========已登录163邮箱啦==========");	
+		
 	}
 	
-//	@AfterClass
-//	public void tearDown() {
-//		driver.quit();	
-//	}
+	@AfterTest(enabled=false)
+	public void tearDown() {
+		if (driver != null) {
+			System.out.println("要关闭啦！！！");
+			driver.quit();
+			
+		}	
+	}
+	
 }

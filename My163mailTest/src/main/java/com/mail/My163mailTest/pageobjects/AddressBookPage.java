@@ -15,7 +15,7 @@ public class AddressBookPage {
 	//导航栏通讯录
 	final static String AddressBookXpath = "//div[@class='nui-tabs-item-text nui-fNoSelect' and contains(.,'通讯录')]";
 	//新建联系人
-	final static String NewContactXpath = "//*[@class='js-component-component nui-mask']";
+	final static String NewContactXpath = "//div[@class='nui-toolbar-item']/div/span[2]";
 	//姓名
 	final static String nameXpath = "//div[@id='contact_edit_main_normal']/dl/dd/div/input";
 	//电子邮箱
@@ -75,5 +75,6 @@ public class AddressBookPage {
 		note.sendKeys(ReadData.getAttribute("note"));
 //		selectGroup.click();
 		confirm.click();
+		System.out.println("已点击确定");
 	}
 }

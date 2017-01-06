@@ -23,6 +23,7 @@ public class LoginPage {
 	public LoginPage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
+		System.out.println("初始化Loginpage了");
 	}
 
 	public  boolean allBtnIsExist(WebDriver driver) {
@@ -38,9 +39,9 @@ public class LoginPage {
 		driver.switchTo().frame("x-URS-iframe");
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='email']")));
 		loginUser.sendKeys(username);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='password']")));
+//		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='password']")));
 		loginPasswd.sendKeys(passwd);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@id='dologin']")));
+//		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@id='dologin']")));
 		loginButton.click();
 		driver.switchTo().defaultContent();
 	}

@@ -16,6 +16,7 @@ public class IndexPage {
 	
 	WebDriver driver;
 	
+
 	final static String xpathwriteMessageBtn="//b[@class='nui-ico fn-bg ga0']";
 	final static String xpathrecipient="//input[@class='nui-editableAddr-ipt']";
 	final static String xpathsubject="//div[@aria-label='邮件主题输入框，请输入邮件主题']/input";
@@ -24,9 +25,18 @@ public class IndexPage {
 	final static String xpathsendBtn="//header[@class='frame-main-cont-head']/div/div/div/span[2]";
 	final static String xpathattachment="//div[@class='ia0']/div/div/input";
 	
+	public IndexPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+		System.out.println("初始化IndexPage了");
+	}
+	
 	//写信按钮
 	@FindBy(xpath= xpathwriteMessageBtn)
 	private static WebElement writeMessageBtn;
+	
+//	@FindBy(xpath= xpathwriteMessageBtn)
+//	private static WebElement writeMessageBtn1;
 	
 	//收件人
 	@FindBy(xpath=xpathrecipient)
@@ -47,12 +57,7 @@ public class IndexPage {
 	@FindBy(xpath=xpathsendBtn)
 	private static WebElement sendBtn;
 	
-	public IndexPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-	}
-
-	public void writeMessage(WebDriverWait wait) {
+	public void writeMessage(WebDriver driver,WebDriverWait wait) {
 		//元素找到后点击写信按钮
 		WaitEncap.WaitMethod(wait, xpathwriteMessageBtn);
 		writeMessageBtn.click();
@@ -78,6 +83,7 @@ public class IndexPage {
 		//元素找到后点击写信按钮
 		WaitEncap.WaitMethod(wait, xpathwriteMessageBtn);
 		System.out.println("#########要点击写信按钮喽！！！！！#########");
+
 		writeMessageBtn.click();
 		//元素找到后输入收信人
 		WaitEncap.WaitMethod(wait, xpathrecipient);
